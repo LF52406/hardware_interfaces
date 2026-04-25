@@ -24,6 +24,7 @@ import android.hardware.bluetooth.audio.Lc3Capabilities;
 import android.hardware.bluetooth.audio.LdacCapabilities;
 import android.hardware.bluetooth.audio.OpusCapabilities;
 import android.hardware.bluetooth.audio.SbcCapabilities;
+import android.hardware.bluetooth.audio.LhdcCapabilities;
 
 /**
  * Used to specify the capabilities of the codecs supported by Hardware Encoding.
@@ -45,6 +46,7 @@ parcelable CodecCapabilities {
         Lc3Capabilities lc3Capabilities;
         VendorCapabilities vendorCapabilities;
         @nullable OpusCapabilities opusCapabilities;
+        @nullable LhdcCapabilities lhdcCapabilities;
     }
     CodecType codecType;
     Capabilities capabilities;
