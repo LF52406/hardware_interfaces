@@ -31,4 +31,6 @@ enum CodecType {
     OPUS,
     APTX_ADAPTIVE_LE,
     APTX_ADAPTIVE_LEX,
+    LHDC,
+    LHDC_LL,
 }
