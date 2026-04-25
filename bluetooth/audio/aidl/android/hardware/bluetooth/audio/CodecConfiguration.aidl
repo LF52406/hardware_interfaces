@@ -24,6 +24,7 @@ import android.hardware.bluetooth.audio.Lc3Configuration;
 import android.hardware.bluetooth.audio.LdacConfiguration;
 import android.hardware.bluetooth.audio.OpusConfiguration;
 import android.hardware.bluetooth.audio.SbcConfiguration;
+import android.hardware.bluetooth.audio.LhdcConfiguration;
 
 /**
  * Used to configure a Hardware Encoding session.
@@ -47,6 +48,7 @@ parcelable CodecConfiguration {
         Lc3Configuration lc3Config;
         VendorConfiguration vendorConfig;
         @nullable OpusConfiguration opusConfig;
+        @nullable LhdcConfiguration lhdcConfig;
     }
     CodecType codecType;
     /**
